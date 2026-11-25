@@ -22,7 +22,7 @@ SessionLocal = sessionmaker(bind=engine)
 Base = declarative_base()
 
 
-# --- Database Models ---
+
 class UploadBatch(Base):
     __tablename__ = "upload_batches"
 
